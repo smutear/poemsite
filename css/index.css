@@ -1,0 +1,74 @@
+body{
+	background: #FFFFBB;
+}
+.top{
+	background: #f1f1f1;
+	height: 30px;
+	margin: 0 auto;
+}
+.top_page{
+	height: 30px;
+	width: 970px;
+	margin: 0 auto;
+}
+.top_page_l{
+	line-height: 30px;
+}
+.top_page_r ul li a{
+	padding-left: 15px;
+	line-height: 30px;
+}
+.content{
+	width: 970px;
+	/*background: #F00;*/
+	height: 1024px;
+	border-left: 2px solid #f1f1f1;
+	border-right: 2px solid #f1f1f1;
+	margin: 0 auto;
+}
+.view{
+	width: 960px;
+	margin: 5px 5px 0 5px;
+	background: red;
+}
+.item{
+	width: 300px;
+	background: #FFEE99;
+	margin: 15px 0 0 15px;
+	border: 1px solid #f1f1f1;
+}
+.item_l{
+	width: 100px;
+	/*border-right: 1px solid #f1f1f1;*/
+}
+.item_l_up{
+	width: 100px;
+	height: 100px;
+	/*border-bottom: 1px solid #f1f1f1;*/
+}
+.item_l_up_img{
+	display: inline-block;
+	width: 81px;
+	height: 81px;
+	margin: 9.5px 9.5px 9.5px 9.5px;
+	border-radius: 50%;
+	background: url(../images/icon.png);
+}
+.item_l_down .author{
+	font-weight: bold;
+	margin: 15px 0 0 25px;
+}
+.item_r_up .poem_title{
+	margin: 5px 0 0 65px;
+	font-weight: bold;
+}
+.item_r_up .poem_content{
+	margin: 10px 0 0 45px;
+	letter-spacing: 8px;
+}
+.item_r_up{
+	/*border-bottom: 1px solid #f1f1f1;*/
+}
+.item_r_down ul li{
+	margin: 15px 0 15px 20px;
+}
